@@ -10,6 +10,6 @@ fun getLength(obj : Any) : Int?{
 
 
 fun main() {
-    getLength("Incomprehensibilities")
-    getLength(listOf(Any()))
+    println(getLength("Incomprehensibilities"))
+    println(getLength(listOf(Any())))
 }
